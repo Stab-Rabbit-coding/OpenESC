@@ -118,12 +118,12 @@ OpenESC/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/OpenSourceESC.git
+   git clone https://github.com/sidharthmohannair/OpenESC.git
    ```
 
 2. **Navigate to the Source Code**:
    ```bash
-   cd OpenSourceESC/src/open_loop_esc/
+   cd OpenESC/src/open_loop_esc/
    ```
 
 3. **Open the Project in Arduino IDE**:

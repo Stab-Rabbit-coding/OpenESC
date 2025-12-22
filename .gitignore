@@ -1,0 +1,112 @@
+##################################################
+# OS / System Files
+##################################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+##################################################
+# Build Artifacts (ALWAYS ignore)
+##################################################
+*.o
+*.a
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.out
+*.log
+*.lst
+
+##################################################
+# STM32 (CubeIDE / HAL / Make / CMake)
+##################################################
+.metadata/
+.settings/
+.project
+.cproject
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# Keep .ioc files for hardware configuration!
+# Only ignore:
+*.mxproject
+
+##################################################
+# Arduino IDE (1.x & 2.x)
+##################################################
+build/
+build-*/
+arduino_build_*/
+arduino_cache_*/
+*.ino.cpp
+*.ino.eep
+*.ino.hex
+*.ino.bin
+
+##################################################
+# ESP32 (Arduino-ESP32 / ESP-IDF)
+##################################################
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+build/
+managed_components/
+dependencies.lock
+
+##################################################
+# PlatformIO (if adding multi-platform support)
+##################################################
+.pio/
+.pioenvs/
+.piolibdeps/
+libdeps/
+
+##################################################
+# IDEs
+##################################################
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Eclipse
+*.launch
+
+##################################################
+# Python (ESP-IDF tools)
+##################################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+##################################################
+# Temporary / Backup Files
+##################################################
+*.bak
+*.swp
+*.tmp
+*~
+
+##################################################
+# ESC-Specific User Data
+##################################################
+calibration.bin
+user_config.bin
+eeprom_backup.bin
+
+##################################################
+# Documentation Build
+##################################################
+docs/_build/
